@@ -12,6 +12,7 @@
 	* Allgemeingültigkeit --> Ein Algorithmus muss auf alle Aufgaben gleichen Typs anwendbar sein
 
 \* deterministisch = freiheit verneinend --> der algorithmus läuft immer gleich ab
+
 \* determiniert = Unter gleichen Ausgangsbedingungen erzeugt der Algorithmus immer die gleiche Ausgabe
 #### Darstellungsformen von Algorithmen:
 
