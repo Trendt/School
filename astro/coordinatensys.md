@@ -23,3 +23,6 @@
 
 > Der jährliche Umlauf der Erde um die Sonne widerspiegelt sich am Sternhimmel in einem jährlichen Umlauf der Sterne.
 > Jede Jahreszeit hat ihren charakteristischen Anblick des Sternhimmels.
+
+* In einem Monat verschiebt sich der Sternhimmel um 1/12*360° = 30°
+
