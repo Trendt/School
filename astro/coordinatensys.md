@@ -8,7 +8,7 @@
 
 ### rotierendes Äquatorsystem (AS)
 
-* Deklination --> delta
+* Deklination --> delta &#916;
 * Rektaszension (RA "right ascension") --> alpha --> 0-24h
 23.5° = 
 
