@@ -9,8 +9,9 @@
 ### rotierendes Äquatorsystem (AS)
 
 * Deklination --> delta &#948;
-* Rektaszension (RA "right ascension") --> alpha &#945; --> 0-24h
-23.5° = 
+* Rektaszension (RA "right ascension") --> alpha &#945; --> 0-24h  
+
+* = 23.5° 
 
 
 ### die scheinbare jährliche Bewegung der Gestirne
