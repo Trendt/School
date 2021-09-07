@@ -7,6 +7,6 @@
 
 * Zum erfassen der Positionen und Bewegungen der Objekte am Nachthimmel wurden Verschiedene Messinstrumente genutzt:
 	* Triquetrums (Dreistab zum messen der Winkel am Firmament, durch Sehnentafeln)
-	* Armillarsphäre
-	* Astrolabium
+	* Armillarsphäre ("Himmelsgerüst" zum Ablesen der Deklination & Stundenwinkel von Objekten)
+	* Astrolabium (Weiterentwicklung der Armillarsphäre)
 
