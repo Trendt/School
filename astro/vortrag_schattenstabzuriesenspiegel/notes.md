@@ -9,4 +9,11 @@
 	* Triquetrums (Dreistab zum messen der Winkel am Firmament, durch Sehnentafeln)
 	* Armillarsphäre ("Himmelsgerüst" zum Ablesen der Deklination & Stundenwinkel von Objekten)
 	* Astrolabium (Weiterentwicklung der Armillarsphäre)
+* benutzt bis zur Erfindung des Fernrohres (Beginn 17. Jhd
 
+* mit Spiegelteleskop wurde optische Abbildung astronomischer Objekte möglich
+* die ersten Linsenfernrohre hatten geringe Reichweite und Auflösung, jedoch gelang Entdeckung der Jupitermonde
+* Fernrohre wurden riesig gebaut, für bessere Auflösung und Reichweite
+* z.b Christiaan Huygens --> 23cm Objektivdurchmesser und über länge von 65m
+
+* großer Fortschritt mit achromatischen Objektiven (John Dollond) 
