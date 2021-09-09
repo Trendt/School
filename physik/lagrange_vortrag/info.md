@@ -1,6 +1,6 @@
 # Lagrange-Punkte
 
-![Lagrange-Punkte](/images/lagrange.jpg)
+![Lagrange-Punkte](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lagrangian_points_equipotential.jpg/370px-Lagrangian_points_equipotential.jpg)
 
 ### Joseph-Louis Lagrange
 
