@@ -21,6 +21,9 @@ def quadratic_equation(a:float, b:float, c:float) -> list:
         else:
             return ["n.l."]*2
 
+def scheitelpunkt(a:float, b:float, c:float) -> tuple:
+    pass
+
 def linear_equation(m:float, n:float) -> float:
     return -n/m
 
@@ -125,7 +128,6 @@ class PlotWindow(Toplevel):
         self.plot1.plot(points[1], points[0])
         self.canvas.draw()
         self.canvas.get_tk_widget().pack()
-
         
 if __name__ == "__main__":
     root = Tk()
