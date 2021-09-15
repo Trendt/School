@@ -29,9 +29,11 @@ class GUI(Frame):
     def __init__(self, parent, *args, **kwargs):
         Frame.__init__(self, parent, *args, **kwargs)
         self.parent = parent
-        self.h1 = ("Arial", 14)
-        self.font = ("Arial", 12)
-        self.plot_size = 100
+        self.h1 = ("Times New Roman", 14)
+        self.font = ("Times New Roman", 12)
+        
+        self.plot_size = 10
+        self.plot_step_size = 1
         
         # self.parent.geometry("400x300")
         self.parent.title("Quadratische Gleichungen")
@@ -93,7 +95,7 @@ class GUI(Frame):
         
     def plot(self):
         a,b,c = self.read_input()
-        points = [[a*(x**2) + b*x + c for x in range(-1*self.plot_size, self.plot_size + 1)], [_ for _ in range(-1*self.plot_size,self.plot_size+1)]]
+        points = [[a*(x**2) + b*x + c for x in range(-1*self.plot_size, self.plot_size + 1, self.plot_step_size)], [_ for _ in range(-1*self.plot_size,self.plot_size+1, self.plot_step_size)]]
         try:
             if self.plot_window:
                 self.plot_window.update_plot(points)
