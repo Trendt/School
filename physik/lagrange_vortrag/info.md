@@ -12,6 +12,8 @@
 
 ### positionen der Punkte
 
+![Formeln 1-3](/images/formeln.png)
+
 #### L1
 
 * auf Gerade der 2 Objekte 
