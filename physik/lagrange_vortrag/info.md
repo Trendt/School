@@ -12,7 +12,7 @@
 
 ### positionen der Punkte
 
-![Formeln 1-3](/images/formeln.png)
+![Formeln 1-3](https://github.com/Trendt/School/blob/master/physik/lagrange_vortrag/images/formeln.png)
 
 #### L1
 
