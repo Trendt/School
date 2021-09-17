@@ -6,7 +6,7 @@
 > Ein Algorithmus gibt an, wie Eingabegrößen schrittweise in Ausgabegrößen umgewandelt werden.
 
 * Eigenschaften:
-	* Endlichkeit
+	* Endlichkeit --> Der algorithmus besteht aus endlich vielen Anweisung mit endlicher länge
 	* Eindeutigkeit --> Algortihmen sind deterministisch und Ausgabe ist determiniert
 	* Ausführbarkeit --> jede Anweisung muss für den Prozessor verstädnlich und ausführbar sein
 	* Allgemeingültigkeit --> Ein Algorithmus muss auf alle Aufgaben gleichen Typs anwendbar sein
@@ -17,7 +17,9 @@
 #### Darstellungsformen von Algorithmen:
 
 * Natürliche Sprache
+* verbale sprache
 * Strukturelle Darstellung (z.b. pap)
+* strukturplan 
 * Programmiersprachen
 
 #### Die 3 grundlegenden Algortihmenstrukturen
