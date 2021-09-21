@@ -1,6 +1,7 @@
 ## Paläoastronomie
 
 * Spurensuche nach anfängen und Vorgeschichte der Astronomie
+    * Archäologie
 
 zb:
 * Stonehenge
@@ -8,30 +9,31 @@ zb:
 
 <br>
 
-### Stonehenge
+## Stonehenge
 
 * Bauzeit mehrere 100 Jahre
 
 <br>
 
-### Himmelsscheibe von Nebra
+## Himmelsscheibe von Nebra
 
 * Mondsichel und Sternbild
+* Himmelsbogen
 * Hilfe zu Berechnungen
 
 <br>
 
-### Beobachtungen im alten Ägypten
+## Beobachtungen im alten Ägypten
 
 * wichtiger Stern ist Sirius als Bezugsstern
-* 3 Jahreszeiten
 * Kalendar
-* Tituban als Himmelspol
+    * 3 Jahreszeiten
+* Thuban als Himmelspol
 * 12 unvergängliche Sterne im Norden
 
 <br>
 
-### Alt-Babylonische Astronomie
+## Alt-Babylonische Astronomie
 
 * Entwicklung der Tierkreiszeichen
 * wichtige  Beobachtungen
@@ -39,9 +41,12 @@ zb:
 * Schlatregel:
     * Mondjahr war kürzer als Sonnenjahr
 
-### Neo-Babylonische Astronomie
+<br>
+
+## Neo-Babylonische Astronomie
 
 * Saroszyklus
+    * --> Zyklus von wiederkehrenden Sonnenfinsternissen
 * Zieljahrestexte
     * sagten Begegnungen von Planeten her
 * mathematische Modelle zur berechnung bestimmter Phänomene
