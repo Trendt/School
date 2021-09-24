@@ -8,14 +8,18 @@
 
 ### Aufgabe 2
 
-a:
+a)
 
 Bücher | Kunden
 --- | ---
 Titel | Name
 vorrate | password
 preis | warenkorb?
-beschreibung | 
-Bild? |
+beschreibung | Adresse
+Bild? | Email
+ISBN | Benutzername
+Autor | Vorname
+
+b)
 
 
