@@ -13,13 +13,36 @@ a)
 Bücher | Kunden
 --- | ---
 Titel | Name
-vorrate | password
-preis | warenkorb?
+vorrate | Vorname
+preis | Benutzername
 beschreibung | Adresse
 Bild? | Email
-ISBN | Benutzername
-Autor | Vorname
+ISBN | Password
+Autor | Warenkorb?
 
-b)
+c)
+
+Kunden sichtbar:
+
+Bücher | Kunden
+--- | ---
+Titel | Name
+ | Vorname
+preis | Benutzername
+beschreibung | Adresse
+Bild? | Email
+ISBN | Password
+Autor | Warenkorb?
 
 
+Mitarbeiter sichtbar:
+
+Bücher | Kunden
+--- | ---
+Titel | Name
+vorrate | Vorname
+preis | Benutzername
+beschreibung | Adresse
+Bild? | Email
+ISBN | 
+Autor | Warenkorb?
