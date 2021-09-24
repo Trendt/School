@@ -27,7 +27,7 @@ Kunden sichtbar:
 Bücher | Kunden
 --- | ---
 Titel | Name
- | Vorname
+(Vorrat)  | Vorname
 preis | Benutzername
 beschreibung | Adresse
 Bild? | Email
@@ -40,9 +40,13 @@ Mitarbeiter sichtbar:
 Bücher | Kunden
 --- | ---
 Titel | Name
-vorrate | Vorname
+(Vorrat) | Vorname
 preis | Benutzername
 beschreibung | Adresse
 Bild? | Email
 ISBN | 
 Autor | Warenkorb?
+
+d)
+* viele bücher, nicht möglich alle rauszusuchen, die in der preiskategorie sind, in dem Genre usw...
+
