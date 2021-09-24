@@ -8,6 +8,8 @@
 
 ### Aufgabe 2
 
+a:
+
 Bücher | Kunden
 --- | ---
 Titel | Name
