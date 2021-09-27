@@ -6,6 +6,7 @@
 * Datenbanksystem arbeitet mit kopien --> jeder nutzer kann selbst damit arbeiten
 * ER-Diagramm = Entity-Relation-Diagram --> datenbankmodell
 
+
 ### Aufgabe 2
 
 a)
