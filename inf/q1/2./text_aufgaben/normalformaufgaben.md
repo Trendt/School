@@ -48,19 +48,59 @@ Note
 a ) 
 
 Carsharing
-_KundenNr_ | Name | Tel | _Ausleihdatum_ | _Kennzeichen_ | Hersteller | KM-Stand | Bauhjahr
+_KundenNr_ | Name | Tel | _Ausleihdatum_ | _Kennzeichen_ | Hersteller | KM-Stand | Baujahr
 --- | --- | --- | --- | --- | --- | --- | ---
 1 | Bernd | 9123901 | 8.11.2019 | B HR 1872 | VW | 192159 | 2001
 2 | Bertha | 29580192 | 11.11.2019 | B HR 1873 | Mercedes | 19023 | 2019
 3 | Bodo | 40512394 | 12.11.2019 | B HR 1874 | BMW | 72900 | 2018
 
 b) 
+Änderungs-, Einfügeanomalien könnten auftreten, löschanomalien nicht wirklich, da dann einfach nur daten fehlen.
 
 c) 
+Funktionale abhängigkeiten liegen zwischen dem namen und der telefonnummer vor.
 
 
 
 d)
+3 Tabellen:
+
+Kunde
+_KundenNr_ | Vorname | Nachname | Tel 
+--- | --- | --- | ---
+1 | Bernd | Blocksberg | 9123901
+
+Auto
+_Kennzeichen_ | Hersteller | KM-Stand | Baujahr 
+--- | --- | --- | ---
+B HR 1872 | VW | 192159 | 2001
+
+Carsharing
+-> Auto.Kennzeichen | -> Kunde.KundenNR | Ausleihdatum
+--- | --- | ---
+B HR 1872 | 1 | 8.11.2019
 
 
+
+
+
+## S.340
+
+### Aufgabe 4
+
+a)
+
+Sowohl die Faachgebiete, als auch die Institution wird redundant gespeichert, da diese immerwieder die gleichen sind.
+
+
+b)
+
+Das Institut ist transitiv abhängig von der MitarbeiterID.
+
+c) 
+
+Fachgebiete
+Fachgebiet | Institut
+--- | ---
+Datenbank- und Informationssysteme | Informatik
 
