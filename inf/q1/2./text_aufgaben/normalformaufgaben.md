@@ -100,7 +100,13 @@ Das Institut ist transitiv abhängig von der MitarbeiterID.
 c) 
 
 Fachgebiete
-Fachgebiet | Institut
---- | ---
-Datenbank- und Informationssysteme | Informatik
+_FachgebietID_ | Fachgebiet | Institut
+--- | --- | ---
+1 | Datenbank- und Informationssysteme | Informatik
+2 | Codes und Kryptografie | Informatik
 
+Mitarbeiter
+MitarbeiterID | Nachname | ->FachgebietID
+--- | --- | ---
+123 | Engels | 1
+128 | Blömer | 2

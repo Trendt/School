@@ -35,21 +35,23 @@ class DBManager:
         self.conn.commit()
      
     def __repr__(self):
+        self.get_data()
         verlag_str = f"Verlaege: {[v[1] for v in self.verlaege]}"
         buch_str = f"Buecher: {[b[2] for b in self.buecher]}"
         kunde_str = f"Kunden: {[k[0] for k in self.kunden]}"
-        bestellungen_str = f"Bestellungen: {self.buecher}"
+        bestellungen_str = f"Bestellungen: {self.bestellungen}"
         
-        return verlag_str + "\n" + buch_str + "\n" + kunde_str + "\n" + bestellungen_str
+        return "\n" + verlag_str + "\n" + buch_str + "\n" + kunde_str + "\n" + bestellungen_str
      
-    def query(self, QUERY:str, args:tuple=()):
+    def query(self, QUERY:str, *args):
         self.cursor.execute(QUERY, args)
         self.conn.commit()
-        self.get_data()
+        
         try:
             return self.cursor.fetchall()
         except:
             return None
+        self.get_data()
     
     def get_data(self):
         self.cursor.execute("SELECT * FROM Verlag;")
@@ -91,11 +93,12 @@ class DBManager:
             # kriege id wo autorname = name --> namen könnten doppelt sein? --> nicht verhinderbar da man nichts als namen hat
             self.cursor.execute("SELECT ID FROM Autor WHERE Name == ?;",
                                 (autor,))
+            autor_id = self.cursor.fetchall()[0][0]
             self.conn.commit()
             
-            autor_id = self.cursor.fetchall()[0][0]
             self.cursor.execute("INSERT INTO AutorBuch VALUES (?, ?)",
                                 (autor_id, ISBN))
+            
         for kat in kategorie:
             # check if category exists, if get katID and fill katID,ISBN in KategorieBuch
             try:
@@ -169,19 +172,41 @@ class DBManager:
         self.delete_buch(VID=verlagID)
         self.conn.commit()
         
+    def get_kunde(self, username:str) -> tuple:
+        return self.query("SELECT * FROM Kunde WHERE Username == ?", username)[0]
     
+    def get_buch(self, ISBN:int) -> tuple:
+        return self.query("SELECT * FROM Buch WHERE ISBN == ?", ISBN)[0]
+    
+    def get_bestellung_from_user(self, username:str) -> tuple:
+        return self.query("SELECT * FROM Bestellung WHERE Username == ?", username)[0]
+    
+    def get_bestellung_from_isbn(self, ISBN:int) -> tuple:
+        return self.query("SELECT * FROM Bestellung WHERE ISBN == ?", ISBN)[0]
+    
+    def get_verlag(self, VID:int):
+        return self.query("SELECT * FROM Verlag WHERE VID == ?", VID)[0]
         
 dbmanager = DBManager("buchhandel.db")
 # dbmanager.insert_verlag("Verlagsname", "Verlagssitz", "Ansprechpartner")
-dbmanager.delete_buch(ISBN=1337)
-dbmanager.insert_buch(1337, ("Kategorie 1", "Kategorie 2"), "titel", ("Autor 1", "Autor 2"), 35.99, True, 10.0, 1)
 # dbmanager.insert_kunde("username", "email@provider.com", "passwort", addresse="addresse", vorname="Vorname", nachname="Nachname")
-# dbmanager.insert_bestellung(1337, "username", 4)
+# dbmanager.delete_buch(ISBN=1234)
+# dbmanager.insert_buch(1234, ("Kategorie 1", "Kategorie 2"), "titel", ("Autor 1", "Autor 2"), 35.99, True, 10.0, 1)
+# dbmanager.insert_bestellung(1234, "username", 4)
 
-print("Vor löschen:\n", dbmanager)
+print("DBManager:", dbmanager, "\n\n")
+
+print("Kunde:", dbmanager.get_kunde("username"))
+print("Buch:", dbmanager.get_buch("1234"))
+print("Bestellung:", dbmanager.get_bestellung_from_user("username"))
+print("Verlag:", dbmanager.get_verlag(1))
+
 
 # dbmanager.delete_kunde("username")
 # dbmanager.delete_verlag(1)
+# dbmanager.delete_buch(1234)
+
+# print("\nNach löschen:\n\n", dbmanager)
 
 # print("\nnach löschen:\n", dbmanager)
 # dbmanager.commit_close()

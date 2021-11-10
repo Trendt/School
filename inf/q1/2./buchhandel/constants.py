@@ -1,6 +1,6 @@
 create_verlag_table =  """CREATE TABLE IF NOT EXISTS Verlag (
                     VID INTEGER PRIMARY KEY,
-                    Name VARCHAR(255) NOT NULL,
+                    Name VARCHAR(255) NOT NULL UNIQUE,
                     Sitz VARCHAR(255) NOT NULL,
                     Ansprechpartner VARCHAR(255) NOT NULL
                 );"""
