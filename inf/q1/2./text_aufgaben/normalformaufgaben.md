@@ -106,7 +106,31 @@ _FachgebietID_ | Fachgebiet | Institut
 2 | Codes und Kryptografie | Informatik
 
 Mitarbeiter
-MitarbeiterID | Nachname | ->FachgebietID
+_MitarbeiterID_ | Nachname | ->FachgebietID
 --- | --- | ---
 123 | Engels | 1
 128 | Blömer | 2
+
+## S.341
+
+### Aufgabe 6
+
+1NF:
+
+Artikel
+_ArtikelNr_ | Bezeichnung | Preis
+--- | --- | ---
+10078 | Rock | 19.95
+22900 | Top | 14.95
+
+User
+_Benutzername_ | Strassenname | Hausnummer | Ort 
+--- | --- | --- | ---
+pink18 | Rotweg | 2 | Köln 
+blue28 | Lichtstr. | 44 | Bonn
+
+Bestellung 
+_BestellungsID_ | Datum | Menge | -> ArtikelNr 
+--- | --- | --- | ---
+4561 | 6.02.13 | 1 | 10078
+4562 | 6.02.13 | 2 | 22900
