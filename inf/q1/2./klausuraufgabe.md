@@ -163,3 +163,6 @@ Join:
 3NF:
 * nicht eingehalten
 * name des herstellers könnte sich ändern --> extra tabelle und über hersteller.id
+
+### Aufgabe 7
+--> klausuraufgabe.py
