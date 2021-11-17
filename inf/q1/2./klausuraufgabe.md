@@ -102,47 +102,47 @@ Model_Shooting
 
 # 4.
 
->> CREATE TABLE IF NOT EXISTS Agentur(
->>	Name VARCHAR(255) PRIMARY KEY,
->>	Ort VARCHAR(255) NOT NULL
->>);
+> CREATE TABLE IF NOT EXISTS Agentur(
+>	Name VARCHAR(255) PRIMARY KEY,
+>	Ort VARCHAR(255) NOT NULL
+>);
 
->> CREATE TABLE IF NOT EXISTS Model(
->>	MID INTEGER PRIMARY KEY,
->>	Name Varchar(255),
->>	Vorname Varchar(255),
->>	Geschlecht Varchar(255),
->>	Grösse REAL
->>	AgenturName Varchar(255) NOT NULL,
->>	FOREIGN KEY(AgenturName) REFERENCES Agentur(Name)
->>);
+> CREATE TABLE IF NOT EXISTS Model(
+>	MID INTEGER PRIMARY KEY,
+>	Name Varchar(255),
+>	Vorname Varchar(255),
+>	Geschlecht Varchar(255),
+>	Grösse REAL
+>	AgenturName Varchar(255) NOT NULL,
+>	FOREIGN KEY(AgenturName) REFERENCES Agentur(Name)
+>);
 
->> CREATE TABLE IF NOT EXISTS Produkt(
->>	Bezeichnung VARCHAR(255) PRIMARY KEY,
->>	Hersteller VARCHAR(255)
->>);
+> CREATE TABLE IF NOT EXISTS Produkt(
+>	Bezeichnung VARCHAR(255) PRIMARY KEY,
+>	Hersteller VARCHAR(255)
+>);
 
 
->> CREATE TABLE IF NOT EXISTS Shooting(
->>	Termin DATE NOT NULL,
->>	Ort VARCHAR(255) NOT NULL,
->>	Produkt VARCHAR(255) NOT NULL,
->>	Fotograf VARCHAR(255) NOT NULL,
->>	FOREIGN KEY(Produkt) REFERENCES Produk(Bezeichnung),
->>	FOREIGN KEY(Fotograf) REFERENCES Fotograf(Name),
->>	PRIMARY KEY(Termin, Ort)
->>);
+> CREATE TABLE IF NOT EXISTS Shooting(
+>	Termin DATE NOT NULL,
+>	Ort VARCHAR(255) NOT NULL,
+>	Produkt VARCHAR(255) NOT NULL,
+>	Fotograf VARCHAR(255) NOT NULL,
+>	FOREIGN KEY(Produkt) REFERENCES Produk(Bezeichnung),
+>	FOREIGN KEY(Fotograf) REFERENCES Fotograf(Name),
+>	PRIMARY KEY(Termin, Ort)
+>);
 
 ### 5.
 
 Selektion:
->> SELECT * FROM Model;
+> SELECT * FROM Model;
 
 Projektion:
->> SELECT * FROM Model Where Model.Geschlecht == "männlich";
+> SELECT * FROM Model Where Model.Geschlecht == "männlich";
 
 Join:
->> SELECT MID, Name, Vorname CROSS JOIN Shooting;
+> SELECT MID, Name, Vorname CROSS JOIN Shooting;
 
 
 ### 6.
