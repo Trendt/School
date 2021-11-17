@@ -149,6 +149,17 @@ Join:
 
 1NF:
 * eingehalten
+* es sind keine Felder vorhanden, in denen mehrere Werte gespeichert werden müssten
 
 2NF:
+<!---
+* eingehalten
+* kein Nichtschlüsselfeld, das direkt von einem anderem Feld abhängig ist wird in der gleichen Tabelle gespeichert
+-->
 
+* nicht eingehalten
+* Fotograf.Name kann mehrfach vorkommen und ist Primary key --> probleme --> fotograf.id hinzufügen als PK(Primary Key)
+
+3NF:
+* nicht eingehalten
+* name des herstellers könnte sich ändern --> extra tabelle und über hersteller.id
