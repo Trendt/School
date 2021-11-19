@@ -8,6 +8,7 @@
 * Hermann Oberth, Robert Nebel, Wernher von Braun leisteten wichtige beiträge zur Entwicklung der Raketentechnik gegen Ende des WWII
 
 * Nach 2.WK von Russland und USA weiter vorangetrieben
-* 4. Oktober 1957 -> Start des 1. Erdsateliten, Sputnik 1
+* 4.Oktober 1957 -> Start des 1. Erdsateliten, Sputnik 1
 * große fortschritte da beobachtungen von außerhalb der Erdoberfläche gemacht werden konnten
 
+#
