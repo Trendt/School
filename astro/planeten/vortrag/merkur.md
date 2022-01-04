@@ -1,4 +1,4 @@
-# Vortrag Merkur (Yuriy, Ich) --> 17.01.22 
+# Vortrag Merkur (Yuriy Ivanov, Jaro Schmidt) --> 17.01.22 
 
 ### Steckbrief:
 	* Physikalische Daten auflisten, erläutern
