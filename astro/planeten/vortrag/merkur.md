@@ -8,6 +8,7 @@
 Kategorie | Daten
 --- | ---
 Planetentyp | Gesteinsplanet
+
 Anzahl Monde | 0
 Nummerierung | 1. planet im sonnensystem
 Entfernung zur Sonne | 60.000.000 km
@@ -24,7 +25,8 @@ Masse | 3.3 * 10²³ kg
 Masse i.V. zur Erde | 0.05
 Volumen | 6.08 * 10¹⁰ km³
 Volumen (i.V. zur Erde) | 0.05
-Alter | ca. 4.5Mrd Jahre
+Dichte | 5430kg/m³
+Dichte (i.V. zur Erde) | 0.98 -> fast gleich
 Achsenneigung | 0°
 rotationsgeschwindigkeit | ?
 Rotationsrichtung | rechtläufig
@@ -77,6 +79,8 @@ Länge des Perihels | 77.5°
 <br>
 <https://de.wikipedia.org/wiki/BepiColombo>
 	
+* eine Mission im detail
+
 	* 3 Merkurmissionen insgesamt
 	1. Mariner 10 (3.Nov 1973)
 		* Flog 3 Mal an Merkur vorbei, bevorr Sonde abgeschaltet wurde
@@ -96,3 +100,4 @@ Länge des Perihels | 77.5°
 
 ### Material
 	* Buch	
+	* https://www.astropage.eu/sonnensystem/planeten/merkur/merkur-aufbau/
