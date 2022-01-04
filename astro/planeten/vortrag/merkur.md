@@ -69,7 +69,21 @@ synodische Umlaufzeit | 115.8d
 Länge des Perihels | 77.5°
 
 ### Raumfahrtmissionen zu dem Planeten
-	* eine Mission im detail
+	<https://de.wikipedia.org/wiki/Chronologie_der_Merkurmissionen>
+	<https://de.wikipedia.org/wiki/MESSENGER>
+	<https://de.wikipedia.org/wiki/Mariner#Mariner_10>
+	<https://de.wikipedia.org/wiki/BepiColombo>
+	
+	* 3 Merkurmissionen insgesamt
+	1. Mariner 10 (3.Nov 1973)
+		* Flog 3 Mal an Merkur vorbei, bevorr Sonde abgeschaltet wurde
+	2. Messenger (3.Aug 2004)
+		* 3 Swing by Manöver an Merkur, 2015 gezielter Absturz auf Planete
+	3. BepiColombo (20.Okt 2018)
+		* Untersuchung des Magentfeldes und geologischen Zusammensutzung + Geschichte
+		* 6 Swing-by an Merkur geplant, 1. war am 1.-2.10.21
+		* 2025 Einschwenken in eine Umlaufbahn geplant
+	
 
 ### Allgmein
 	* viel bild, wenig text
@@ -79,4 +93,3 @@ Länge des Perihels | 77.5°
 
 ### Material
 	* Buch	
-
