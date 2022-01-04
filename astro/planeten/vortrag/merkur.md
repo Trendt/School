@@ -20,7 +20,7 @@ Umfang | 15.329 km
 Durchmesser | 4879km
 Radius | 2440km
 Gesamtfläche | 74.800.000 km²
-Masse 3.3 * 10²³ kg
+Masse | 3.3 * 10²³ kg
 Masse i.V. zur Erde | 0.05
 Volumen | 6.08 * 10¹⁰ km³
 Volumen (i.V. zur Erde) | 0.05
@@ -47,9 +47,22 @@ Häufigste Elemente | Silizium. Eisen. Nickel
 	* Planet, Atmosph (wenn vorhanden)
 
 ### Platz des Planeten im Sonnensystem, auswirkung auf die Eigenschafften
+	* Sonnennächster Planet
+	*
 
 ### Bahneigenschaften
+<https://www.w-oess.de/Astronomie/Planeten/p1.html>
 
+Eigenschaft | Wert
+--- | ---
+durchschnittlicher Abstand zur Sonne | 57.9Mio km
+Minimaler Abstand zur Sonne | 46Mio km
+Maximaler Abstand zur Sonne | 69.82Mio km
+Inklination (Neigung) der Bahn zur Erdbahn | 7°
+Umfang der Bahn | 359.98Mio km
+Fläche der Bahn | 1.03*10¹⁶ km²
+siderische Umlaufzeit | 87.969d
+durchschnittlicher Bahngeschwindigkeit | 
 ### Raumfahrtmissionen zu dem Planeten
 	* eine Mission im detail
 
