@@ -69,10 +69,10 @@ synodische Umlaufzeit | 115.8d
 Länge des Perihels | 77.5°
 
 ### Raumfahrtmissionen zu dem Planeten
-	<https://de.wikipedia.org/wiki/Chronologie_der_Merkurmissionen>
-	<https://de.wikipedia.org/wiki/MESSENGER>
-	<https://de.wikipedia.org/wiki/Mariner#Mariner_10>
-	<https://de.wikipedia.org/wiki/BepiColombo>
+<https://de.wikipedia.org/wiki/Chronologie_der_Merkurmissionen>
+<https://de.wikipedia.org/wiki/MESSENGER>
+<https://de.wikipedia.org/wiki/Mariner#Mariner_10>
+<https://de.wikipedia.org/wiki/BepiColombo>
 	
 	* 3 Merkurmissionen insgesamt
 	1. Mariner 10 (3.Nov 1973)
