@@ -62,7 +62,12 @@ Inklination (Neigung) der Bahn zur Erdbahn | 7°
 Umfang der Bahn | 359.98Mio km
 Fläche der Bahn | 1.03*10¹⁶ km²
 siderische Umlaufzeit | 87.969d
-durchschnittlicher Bahngeschwindigkeit | 
+durchschnittlicher Bahngeschwindigkeit | 47.37 km/s
+minimale Bahngeschwindigkeit | 38.86 km/s
+maximale Bahngeschwindigkeit | 58.98 km/s
+synodische Umlaufzeit | 115.8d
+Länge des Perihels | 77.5°
+
 ### Raumfahrtmissionen zu dem Planeten
 	* eine Mission im detail
 
