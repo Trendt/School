@@ -8,7 +8,6 @@
 Kategorie | Daten
 --- | ---
 Planetentyp | Gesteinsplanet
-
 Anzahl Monde | 0
 Nummerierung | 1. planet im sonnensystem
 Entfernung zur Sonne | 60.000.000 km
