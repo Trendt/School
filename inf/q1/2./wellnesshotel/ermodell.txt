@@ -1,0 +1,15 @@
+Gast( Id, Vname, Name, geschlecht, geburtsjahr, straße, ort, plz, -> Masseurid, r_vorname, r_name, r_str, r_plz, r_ort)
+Masseur( id, vname, name)
+Mittel( MittelID, Bezeichnung)
+massiert(->gastid, -> masseurid, datum)
+behandlung(->Gastid, ->MittelID)
+Bett( Bettid, zimmernr, BereichsID, bereichsbezeichnungi)
+
+
+
+nf 3:
+
+ort auslagern
+ort(->plz, ort)
+Bereich( BereichsNr, Bereichsbezeichnung)
+Bettenbelegung(-> BettID, ->GastID, Anreise, Abreise)

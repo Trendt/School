@@ -11,7 +11,7 @@
 
 * kleiner Himmelskörper (meist einiege Kilometer Durchmessser
 * ziehen oft einen leuchtenden Schweif hinter sich her (in sonnennähe) --> "Ausgasen" (austreten von gas oder anderem Material)
-* bestehen aus Eis, Staub und lockerem Gestein
+* bestehen aus Eis, Staub und lockerem Gestein --> Gas oder Staub schweif
 * bilden sich in äußeren, kalten Bereichen des Sonnensystems (jenseits der Neptunbahn) --> Wassestoff und Kohlenstoff-Verbindungen kondensieren zu Eis
 * nebeliege Hülle um Kometen in Sonnennähe wird "Koma" genannt
 
