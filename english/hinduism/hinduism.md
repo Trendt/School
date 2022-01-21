@@ -16,7 +16,7 @@ Year | percent | increase
 
 
 
-### Main ideas
+## Main ideas
 * "the Eternal Dharma" --> refers to idea, that origins of hinduism lie beyond human history
 
 <https://www.hinduismfacts.org/basic-beliefs-of-hinduism/>
@@ -50,9 +50,22 @@ Foods divided into 3 Categories:
 	* often over stimulating these foods can create a restless excited mind
 3. Tamasic
 	* Foods that lower our resistance to disease, cloud the mind and promote negatiev emotions
-	* Red 
+	* Red meat, alcohol, fast food, fried food, canned/stale foodm refined sugars, tobacco, soda
+	* These foods are dull, heavy, block the flow of energy and produce harmful toxins
+
+#### Parents, Teachers and food are next to god:
+	* hindus believe, that parents, teachers and food are next to good
+		* parents give us birthe, nurtures us, teach us values
+		* teacher give us the knowledge to survive in this world
+		* food is the thing, by which we all live
+
+#### The incarnatoin of Vishnu:
+	*  
+
+
+
 
 ### Concepts & rules (Lennard, Yannik)
 
-### Status of Women (?)
+## Status of Women (?)
 
