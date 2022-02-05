@@ -1,7 +1,7 @@
 # Aufgaben zu Rekursion/Iteration
 
->> Name: Jaro Schmidt
->> Datum: 5.01.22
+> Name: Jaro Schmidt
+> Datum: 5.01.22
 
 ### Aufgabe 1:
 
