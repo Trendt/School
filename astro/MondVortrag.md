@@ -46,8 +46,6 @@
 
 ### Die Gezeiten
 * Erde ist im Gravitationsfeld des Mondes
-* gravitationsbeschleunigugn, welche auf das Zetrum der Erde ausgeübt wird:
-	* a = G* M_M / r²
 * wenn die Erde verformbar wäre, würde sie sich durch grav des Mondes verformen
 * ist nicht der fall --> Wasser jedoch schon
 * 2 Flutberge in Bahnebene mit Mond --> andere Seiten sind flacher als sonst
