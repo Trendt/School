@@ -50,6 +50,21 @@
 	* a = G* M_M / r²
 * wenn die Erde verformbar wäre, würde sie sich durch grav des Mondes verformen
 * ist nicht der fall --> Wasser jedoch schon
+* 2 Flutberge in Bahnebene mit Mond --> andere Seiten sind flacher als sonst
+* Wenn Sonne mit in Linie des Mondes -> höher, wenn auf seite von flacheren dingern --> flutberge kleiner
 
 ### Drehimpulserhaltung im System Erde-Mond
-* 
+* Erddrehimpuls: L_E = 2/5*M_E * R_E² * w_E
+* gebundene Rotation des Mondes an die Erde
+	* deshalb sieht man nur eine Seite des Mondes
+
+### Die Liberation
+* Mondrotation hinkt Bahndrehung im Perigäum hinterher 
+* Mondrotation ist Bahndrehung im Apogäum bisschen vorraus
+
+### Die Gezeitenreibung
+* Durch wellen entsteht reibung mit der Erdkruste
+	--> kinetische energie wird in wärme umgewandelt
+	--> erde wird ausgebremst (mittlere Tageslänge vergrößert sich um 0.0016s / Jhd.)
+* Eigendrehimpuls der Erde wird kleiner --> Mond-bahndrehimpuls wird größer
+	--> Mond beschleunigt, erde wird langsamer
