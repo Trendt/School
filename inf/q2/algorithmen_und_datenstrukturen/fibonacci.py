@@ -13,3 +13,4 @@ def fib(num:int) -> int:
         print("num has to be > 0")
 
 test_values = [(i, fib(i)) for i in range(0,limit)]
+print(test_values)
