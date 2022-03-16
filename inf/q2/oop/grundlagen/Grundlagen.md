@@ -6,3 +6,9 @@ Klasse
 
 | Bankkonto | 
 | :---: |
+| Kontonummer |
+| Kontostand |
+| Eröffnungsdatum |
+| Konototyp|
+| :---: |
+
