@@ -42,8 +42,14 @@
 
 ### Furps/Furps+
 
-> Functionality | Funktionalität
-> Usability | Benutzerfreundlichkeit
-> Reliability | Zuverlässigkeit
-> Performance | Effizienz
-> Supportability | Wartbarkeit
+Functionality | Funktionalität
+Usability | Benutzerfreundlichkeit
+Reliability | Zuverlässigkeit
+Performance | Effizienz
+Supportability | Wartbarkeit
+
++ 
+Design | Designanforderungen
+Implementation | Implementierung
+Interface | Schnittstellen
+Physical | Physische Anforderungen
