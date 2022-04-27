@@ -1,0 +1,14 @@
+{
+    "Book": [
+        {
+            "code": 100001,
+            "title": "a",
+            "author": "author",
+            "price": 22.99,
+            "comment": "",
+            "arguments": {
+                "year_of_release": 1905
+            }
+        }
+    ]
+}

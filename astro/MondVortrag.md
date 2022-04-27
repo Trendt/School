@@ -29,7 +29,7 @@
 
 * Ebbe und Flut ( Gezeiten)
 	* durch gravKraft des Mondes und der Sonne
-	* Bei Neumond größere Einwirkung --> Springflut
+	* Bei Voll-/Neumond größere Einwirkung --> Springflut
 	* bei Halbmond Nippflut -->  leichtere einwirkung
 	* Bremst die Erdrotation
 		* 100.000 Jahre --> zunahme der Jahreslänge um 1.6sek

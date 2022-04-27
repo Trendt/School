@@ -62,3 +62,35 @@ Interface | Schnittstellen
 
 Physical | Physische Anforderungen
 
+### UML(unified modelling language)
+
+* Klassendiagramm
+
+* Diagramm-tools:
+	* Visio/Omnigraffle
+* webbasierte diagrammersetllung:
+	* giffy.com, creately.com, licdchart,com
+* Pgrammbasierte: IDEs
+	* Visual Studio, Eclipse
+
+	
+### Klassendiagramm
+
+* table: header=classname
+	first row = attributes
+	second row = methods
+
+### Abstrakte klassen:
+	* klasse, benötigt weil andere davon abhängig jedoch selbst nie benutzt
+
+### Aggregation und Komposition
+* Aggregation:
+	* "besteht aus", "hat"
+	* leere Raute
+* Komposition:
+	* Existenz von kindern abhängig von existenz der eltern
+	* volle raute
+	* wenn eltern gelöscht -> kind löschen
+
+
+

@@ -10,3 +10,7 @@ Gus Grissom, Ed White, Roger Chaffee
 * 1. Apollo mission, welche ins All ging
 * 11 tage flug
 * Wally Schirra, Walt Cunningham, Donn Eisele
+
+### Apollo 8
+* 
+
