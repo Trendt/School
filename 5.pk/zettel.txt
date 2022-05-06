@@ -1,0 +1,12 @@
+Name, Vorname: Schmidt, Jaro
+Thematik:
+	'Monte-Carlo-Treesearch & Neuronale Netze'
+Problemfrage:
+	' Sind auf Künstlicher Intelligenz basierende Algorithmen herrkömmlichen Algorithmen überlegen?'
+
+inhaltliche Schwerpunkte:
+	1. Darstellung der FUnktionsweise von Monte-Carlo-Treesearch und von Neuronalen Netzen
+	2. Implementierung & Optimierug des Monte-Carlo-Treesearch am Beispiel von "4-Gewinnt"
+	3. Beurteilung ob, und inwiefern, der Monte-Carlo-Treesearch Algorithmus besser geeinget für "4-Gewinnt" ist, als Neuronale Netze
+
+

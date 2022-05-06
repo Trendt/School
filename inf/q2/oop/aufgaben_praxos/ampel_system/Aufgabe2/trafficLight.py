@@ -2,9 +2,56 @@ from pygame import Rect, Surface
 import pygame
 from pygameExt import Circle
 
+class PedestrianTrafficLight(object):
+    def __init__(self, startValueRed:bool, startValueGreen:bool):
+        self.setLights(startValueRed, startValueGreen)
+        self.shiftOrder = [
+                    (True, False),
+                    (False, True)
+                ]
+        self.currentShift = 0
+
+    def setLights(self, valueRed:bool, valueGreen:bool):
+        self.lights = (valueRed, valueGreen)
+
+    def getLights(self) -> tuple:
+        return self.lights
+
+    def shift(self):
+        self.currentShift= self.currentShift + 1 if self.currentShift != len(self.shiftOrder)-1 else 0
+        self.lights = self.shiftOrder[self.currentShift]
+
+    def __repr__(self) -> str:
+        return str(self.lights)
+
+class PedestrianTrafficLightPyGame(PedestrianTrafficLight):
+    def __init__(self, startValueRed:bool, startValueGreen:bool, x:int, y:int, widht:int, height:int, colorBackground:tuple =(0,0,0), colorRed:tuple=(255, 0, 0), colorGreen:tuple=(0, 255, 0), colorOff:tuple = (10, 10, 10)):
+        super().__init__(startValueRed, startValueGreen)
+        self.coords = (x,y)
+        self.width = width
+        self.height = height
+        self.colorBG = colorBackground
+        self.colorLights = (colorOff, colorRed, ColorGreen)
+
+        self.__initObjects__()
+
+    def __initObjects__(self):
+        # pygame Objects
+        self.objects
+
+
+
+
 class TrafficLight(object):
     def __init__(self, startValueRed:bool, startValueYellow:bool, startValueGreen:bool):
         self.setLights(startValueRed, startValueYellow, startValueGreen)
+        self.shiftOrder = [
+                            (True, False, False), # red
+                            (True, True, False),  # red-yellow
+                            (False, False, True), # green
+                            (False, True, False)  # yellow
+                        ]
+        self.currentShift = 0
 
     def setLights(self, valueRed:bool, valueYellow:bool, valueGreen:bool):
         self.lights = (valueRed, valueYellow, valueGreen)
@@ -13,17 +60,8 @@ class TrafficLight(object):
         return self.lights
 
     def shift(self):
-        if self.lights == (True, False, False):
-            self.lights = (True, True, False)
-
-        elif self.lights == (True, True, False):
-            self.lights = (False, False, True)
-
-        elif self.lights == (False, False, True):
-            self.lights = (False, True, False)
-
-        elif self.lights == (False, True, False):
-            self.lights = (True, False, False)
+        self.currentShift = self.currentShift + 1 if self.currentShift != len(self.shiftOrder)-1 else 0 
+        self.lights = self.shiftOrder[self.currentShift]
 
     def __repr__(self) -> str:
         return str(self.lights)
