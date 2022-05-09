@@ -16,6 +16,7 @@ screen.fill((60,60,60))
 running = True
 
 trafficLight = TrafficLightPyGame(True, False, False, 50, 50, 100, 300)
+trafficLight.setNightMode(True)
 
 while running:
     for event in pygame.event.get():

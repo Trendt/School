@@ -2,43 +2,6 @@ from pygame import Rect, Surface
 import pygame
 from pygameExt import Circle
 
-class PedestrianTrafficLight(object):
-    def __init__(self, startValueRed:bool, startValueGreen:bool):
-        self.setLights(startValueRed, startValueGreen)
-        self.shiftOrder = [
-                    (True, False),
-                    (False, True)
-                ]
-        self.currentShift = 0
-
-    def setLights(self, valueRed:bool, valueGreen:bool):
-        self.lights = (valueRed, valueGreen)
-
-    def getLights(self) -> tuple:
-        return self.lights
-
-    def shift(self):
-        self.currentShift= self.currentShift + 1 if self.currentShift != len(self.shiftOrder)-1 else 0
-        self.lights = self.shiftOrder[self.currentShift]
-
-    def __repr__(self) -> str:
-        return str(self.lights)
-
-class PedestrianTrafficLightPyGame(PedestrianTrafficLight):
-    def __init__(self, startValueRed:bool, startValueGreen:bool, x:int, y:int, widht:int, height:int, colorBackground:tuple =(0,0,0), colorRed:tuple=(255, 0, 0), colorGreen:tuple=(0, 255, 0), colorOff:tuple = (10, 10, 10)):
-        super().__init__(startValueRed, startValueGreen)
-        self.coords = (x,y)
-        self.width = width
-        self.height = height
-        self.colorBG = colorBackground
-        self.colorLights = (colorOff, colorRed, ColorGreen)
-
-        self.__initObjects__()
-
-    def __initObjects__(self):
-        # pygame Objects
-        self.objects
-
 
 
 
@@ -51,6 +14,11 @@ class TrafficLight(object):
                             (False, False, True), # green
                             (False, True, False)  # yellow
                         ]
+        self.nightShiftOrder = [
+                            (False, True, False),
+                            (False, False, False)
+                            ]
+        self.nightMode = False
         self.currentShift = 0
 
     def setLights(self, valueRed:bool, valueYellow:bool, valueGreen:bool):
@@ -59,9 +27,18 @@ class TrafficLight(object):
     def getLights(self) -> tuple: 
         return self.lights
 
+    def setNightMode(self, nightMode:bool = True):
+        self.nightMode = nightMode
+        if self.nightMode:
+            self.currentShift = 0
+
     def shift(self):
-        self.currentShift = self.currentShift + 1 if self.currentShift != len(self.shiftOrder)-1 else 0 
-        self.lights = self.shiftOrder[self.currentShift]
+        if not self.nightMode:
+            self.currentShift = self.currentShift + 1 if self.currentShift != len(self.shiftOrder)-1 else 0 
+            self.lights = self.shiftOrder[self.currentShift]
+        else:
+            self.currentShift = self.currentShift + 1 if self.currentShift != len(self.nightShiftOrder)-1 else 0 
+            self.lights = self.nightShiftOrder[self.currentShift]
 
     def __repr__(self) -> str:
         return str(self.lights)
@@ -90,4 +67,35 @@ class TrafficLightPyGame(TrafficLight):
 
         pygame.draw.circle(surface, self.colorLights[1 if self.lights[0] else 0], self.objects[1].coords, self.objects[1].radius)
         pygame.draw.circle(surface, self.colorLights[2 if self.lights[1] else 0], self.objects[2].coords, self.objects[2].radius)
+
+class PedestrianTrafficLight(TrafficLight):
+    def __init__(self, startValueRed:bool, startValueGreen:bool):
+        self.setLights(startValueRed, startValueGreen)
+        self.shiftOrder = [
+                    (True, False),
+                    (False, True)
+                ]
+        self.currentShift = 0
+
+    def setLights(self, valueRed:bool, valueGreen:bool):
+        self.lights = (valueRed, valueGreen)
+
+    def getLights(self) -> tuple:
+        return self.lights
+
+class PedestrianTrafficLightPyGame(PedestrianTrafficLight):
+    def __init__(self, startValueRed:bool, startValueGreen:bool, x:int, y:int, widht:int, height:int, colorBackground:tuple =(0,0,0), colorRed:tuple=(255, 0, 0), colorGreen:tuple=(0, 255, 0), colorOff:tuple = (10, 10, 10)):
+        super().__init__(startValueRed, startValueGreen)
+        self.coords = (x,y)
+        self.width = width
+        self.height = height
+        self.colorBG = colorBackground
+        self.colorLights = (colorOff, colorRed, ColorGreen)
+
+        self.__initObjects__()
+
+    def __initObjects__(self):
+        # pygame Objects
+        self.objects
+
         pygame.draw.circle(surface, self.colorLights[3 if self.lights[2] else 0], self.objects[3].coords, self.objects[3].radius)
